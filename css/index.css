@@ -54,7 +54,7 @@ body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .section3 .title h1{line-height:160px;font-size:48px;color:#3f3f3f;text-align:center;}
 .section3 .title i{display:block;height:24px;width:450px;background:url("../images/boshimao.png") no-repeat 0 -13px;position:absolute;left:50%;bottom:0;margin-left:-225px;}
 .section3 p{line-height:92px;text-align:center;font-size:16px;}
-.section3 ul{width:103%;}
+.section3 ul{width:100%;}
 .section3 ul li{float:left;margin-right:3.23%;border:1px solid #ccc;width:27.9%;;padding:0 1% 2% 1%}
 .section3 ul li a{display:block;font-size:0;background:#000;width:100%}
 .section3 ul li a img{opacity:1;transition:all 0.3s ease;display: block;width:100%}

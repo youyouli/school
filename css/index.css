@@ -2,6 +2,7 @@
 ul{list-style: none;}
 a{text-decoration: none;color:#fff}
 button,input{border:none;}
+html,body{overflow-x:hidden}
 body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .clear:after{content:"";height:0 ;display:block;clear:both;}
 .main{width:1196px;margin:0 auto;}
@@ -27,9 +28,9 @@ body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .section1 .title h1{line-height:160px;font-size:48px;color:#3f3f3f;text-align:center;}
 .section1 .title i{display:block;height:24px;width:450px;background:url("../images/boshimao.png") no-repeat 0 -13px;position:absolute;left:50%;bottom:0;margin-left:-225px;}
 .section1 p{line-height:92px;text-align:center;font-size:16px;}
-.section1 ul{width:114.5%;padding:26px 0 40px 6px;}
-.section1 ul li{float:left;margin:0 1% 52px 0;width:29.3%;overflow: hidden}
-.section1 ul li .pic{width:100%;height:240px;overflow: hidden;display:block;}
+.section1 ul{width:100%;padding:26px 0 40px 6px;}
+.section1 ul li{float:left;padding:0 1% 2% 1%;width:31.3%;overflow: hidden}
+.section1 ul li .pic{width:100%;height:200px;overflow: hidden;display:block;}
 .section1 ul li .pic img{width:100%;transition:all 0.3s ease;}
 .section1 ul li .pic img:hover{width:150%;margin:-25% 0 0 -25%;}
 .section1 ul li .writ{display:block;line-height:32px;color:#5c5c5c}
@@ -41,7 +42,7 @@ body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .section2 .title i{display:block;height:24px;width:450px;background:url("../images/boshimao.png") no-repeat 0 -13px;position:absolute;left:50%;bottom:0;margin-left:-225px;}
 .section2 p{line-height:92px;text-align:center;font-size:16px;color:#fff}
 .section2 ul{width:105%;padding-top:20px;}
-.section2 ul li{float:left;margin:0 2%;width:19.8%;text-align:center;padding-bottom:64px;}
+.section2 ul li{float:left;margin:0 2%;width:17.8%;text-align:center;padding:0 1% 2% 1%}
 .section2 ul li img{width:100%}
 .section2 ul li img:hover{transform:rotate(360deg);transition:all 0.2s ease}
 .section2 h3{font-size:18px;color:#fff;margin-top:50px;text-align:center}
@@ -54,7 +55,7 @@ body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .section3 .title i{display:block;height:24px;width:450px;background:url("../images/boshimao.png") no-repeat 0 -13px;position:absolute;left:50%;bottom:0;margin-left:-225px;}
 .section3 p{line-height:92px;text-align:center;font-size:16px;}
 .section3 ul{width:103%;}
-.section3 ul li{float:left;margin-right:3.23%;border:1px solid #ccc;width:29.9%;padding-bottom:14px;}
+.section3 ul li{float:left;margin-right:3.23%;border:1px solid #ccc;width:27.9%;;padding:0 1% 2% 1%}
 .section3 ul li a{display:block;font-size:0;background:#000;width:100%}
 .section3 ul li a img{opacity:1;transition:all 0.3s ease;display: block;width:100%}
 .section3 ul li a img:hover{opacity: 0.5;}
@@ -67,16 +68,16 @@ body{font-size:12px;color:#3f3f3f;font-family:arial,"微软雅黑","宋体"}
 .section4 .title h1{line-height:160px;font-size:48px;text-align:center;color:#fff;}
 .section4 .title i{display:block;height:24px;width:450px;background:url("../images/boshimao.png") no-repeat 0 -13px;position:absolute;left:50%;bottom:0;margin-left:-225px;}
 .section4 p{line-height:62px;text-align:center;font-size:16px;color:#fff;}
-.section5 .left{float:left;width:40%;margin-right:10%}
+.section5 .left{float:left;width:38%;margin-right:10%;padding-left:2%}
 .section5 .left h1{padding-top:40px;font-size:30px;margin-bottom:30px;}
 .section5 .left dl{line-height:26px;margin-bottom:26px;}
 .section5 p{line-height:26px;}
-.section5 .right{float:left;width:50%;padding:54px 0 70px 0}
-.section5 .right input{height:34px;vertical-align: middle;width:396px;border-radius:3px;margin:15px 12px;border:1px solid #ccc;}
+.section5 .right{float:left;width:48%;padding:54px 0 70px 2%}
+.section5 .right input{height:34px;vertical-align: middle;width:80%;border-radius:3px;margin:15px 12px;border:1px solid #ccc;}
 .section5 .right .yanzhen{width:106px}
 .section5 .right button{margin-top:15px;display:inline-block;padding:0 86px;line-height:44px;color:#fff;margin-left:62px;background:#f54f4f;}
 .footer_bj{background:#282828;padding:30px 0 0 0;}
-.footer_bj .footer .left{float:left;font-size:14px;color:#fff;}
+.footer_bj .footer .left{float:left;font-size:14px;color:#fff;padding-left:2%}
 .footer_bj .footer .left a:hover{color:#ca0000;transition:all 0.5s ease}
 .footer_bj .footer .left ul{margin-bottom:27px;}
 .footer_bj .footer .left p{margin-bottom:27px;}

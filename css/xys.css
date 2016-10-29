@@ -16,7 +16,7 @@
     .section1 ul li .writ{line-height:20px;padding:0 10%}
     .section2 ul li p{font-size:12px;line-height:20px}
     .section2 ul li a{padding:0 10px}
-    .section3 ul li{width:44%;}
+    .section3 ul li{width:43%;}
     .section3 ul li:nth-child(3){margin-top:40px;margin-left:50%;transform:translateX(-50%)}
 }
 @media screen and (max-width:650px){
